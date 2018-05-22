@@ -40,7 +40,7 @@ CP=     cp
 #GET=    sccs get
 #REL=
 PR=	print
-VGRIND=	csh /usr/ucb/vgrind
+VGRIND=	csh /usr/bin/vgrind
 HEADER=	Parser
 PRT=	/mnt/marc/bin/prt
 

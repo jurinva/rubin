@@ -12,7 +12,7 @@ SRCS=	access.h aux.h batch.h catalog.h func.h \
 GET=	sccs get
 REL=
 PR=	print
-VGRIND=	csh /usr/ucb/vgrind
+VGRIND=	csh /usr/bin/vgrind
 HEADER=	Header Files
 
 sources: $(SRCS)

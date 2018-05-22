@@ -20,7 +20,7 @@ BINMODE=4740
 GET=	sccs get
 REL=
 PR=	print
-VGRIND=	csh /usr/ucb/vgrind
+VGRIND=	csh /usr/bin/vgrind
 HEADER=	One Variable Query Processor
 
 CTLMOD=	$(LIB)/ctlmod

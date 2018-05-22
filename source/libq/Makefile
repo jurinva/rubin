@@ -80,7 +80,7 @@ LIBMODE=664
 GET=
 REL=
 PR=	print
-VGRIND=	csh /usr/ucb/vgrind
+VGRIND=	csh /usr/bin/vgrind
 HEADER=	'Equel Runtime Library'
 
 libq.a: $(OBJS)

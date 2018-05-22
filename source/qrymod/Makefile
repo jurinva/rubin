@@ -27,9 +27,9 @@ ROMODE=	444
 GET=	sccs get
 REL=
 PR=	print
-VGRIND=	csh /usr/ucb/vgrind
+VGRIND=	csh /usr/bin/vgrind
 HEADER=	Query Modification
-CTAGS=	/bin/csh /usr/ucb/ctags
+CTAGS=	/bin/csh /usr/bin/ctags
 
 OBJS=	d_integ.o d_prot.o d_view.o puttree.o qrymod.o \
 	integrity.o protect.o view.o trscan.o \

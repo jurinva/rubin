@@ -46,7 +46,7 @@ ROMODE=	444
 GET=	sccs get
 REL=
 PR=	print
-VGRIND=	csh /usr/ucb/vgrind
+VGRIND=	csh /usr/bin/vgrind
 HEADER=	Database Utilities
 
 dbulib: $(OBJS)

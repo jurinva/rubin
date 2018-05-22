@@ -28,7 +28,7 @@ SRCS2=	pb_prime.c pb_get.c pb_tput.c pb_put.c pb_flush.c \
 
 CFLAGS=	-O -I$H
 PR=	print
-VGRIND=	csh /usr/ucb/vgrind
+VGRIND=	csh /usr/bin/vgrind
 HEADER=	Control Module
 CTAGS=	/bin/csh /usr/bin/ctags
 CXREF=	/bin/csh /mnt/eric/bin/cxref
