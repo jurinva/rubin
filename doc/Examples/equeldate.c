@@ -1,7 +1,7 @@
 /*
 *
-*  Трансляция и запуск этой программы на счет осуществляются
-*  командами:
+*  п╒я─п╟п╫я│п╩я▐я├п╦я▐ п╦ п╥п╟п©я┐я│п╨ я█я┌п╬п╧ п©я─п╬пЁя─п╟п╪п╪я▀ п╫п╟ я│я┤п╣я┌ п╬я│я┐я┴п╣я│я┌п╡п╩я▐я▌я┌я│я▐
+*  п╨п╬п╪п╟п╫п╢п╟п╪п╦:
 *
 *  equel equeldate.q
 *  cc    equeldate.c ~rubin/lib/libq.a
@@ -10,8 +10,8 @@
 # include <stdio.h>
 # include "../../source/h/datetime.h"
 # include "../../source/h/equel.h"
-/* Пример того, как надо правильно писать инициализацию переменных
- * в EQUEL: = пишется на той же строке
+/* п÷я─п╦п╪п╣я─ я┌п╬пЁп╬, п╨п╟п╨ п╫п╟п╢п╬ п©я─п╟п╡п╦п╩я▄п╫п╬ п©п╦я│п╟я┌я▄ п╦п╫п╦я├п╦п╟п╩п╦п╥п╟я├п╦я▌ п©п╣я─п╣п╪п╣п╫п╫я▀я┘
+ * п╡ EQUEL: = п©п╦я┬п╣я┌я│я▐ п╫п╟ я┌п╬п╧ п╤п╣ я│я┌я─п╬п╨п╣
  */
 char NAME[22]=
 "";
@@ -40,69 +40,69 @@ printf("   *    *      *    *    *             *     **   *  *    * \n");
 printf("   *    ******  ****     *            ****** **  ***  ****  \n");
     IIout_err = my_print;
     if ( ac != 2)
-{IIrubin("-dDD-МЕС-YY","demo",0);}
+{IIrubin("-dDD-п°п∙п║-YY","demo",0);}
     else
-{IIrubin("-dDD-МЕС-YY",av[1],0);}
+{IIrubin("-dDD-п°п∙п║-YY",av[1],0);}
 /*      EQ_OFFERR;      */
-{IIwrite("create уч(ном=i2,фио=c16,деньр=date,класс=c2,тел=c16)");IIsync(0);}{IIwrite("define ном_шк=0");IIsync(
+{IIwrite("create я┐я┤(п╫п╬п╪=i2,я└п╦п╬=c16,п╢п╣п╫я▄я─=date,п╨п╩п╟я│я│=c2,я┌п╣п╩=c16)");IIsync(0);}{IIwrite("define п╫п╬п╪_я┬п╨=0");IIsync(
 0);}
-	printf("Проверка перехвата диагностики ошибок\n");
-	printf("Сейчас должна появиться диагностика в '==='\n");
+	printf("п÷я─п╬п╡п╣я─п╨п╟ п©п╣я─п╣я┘п╡п╟я┌п╟ п╢п╦п╟пЁп╫п╬я│я┌п╦п╨п╦ п╬я┬п╦п╠п╬п╨\n");
+	printf("п║п╣п╧я┤п╟я│ п╢п╬п╩п╤п╫п╟ п©п╬я▐п╡п╦я┌я▄я│я▐ п╢п╦п╟пЁп╫п╬я│я┌п╦п╨п╟ п╡ '==='\n");
 	IIwrite("replace (i=10)");IIsync();
 	EQ_ONERR;
         while (1) {
 {IIwrite("retrieve(sdate=sysdate,stime=systime)");IIsetup();while(IIn_get(0)){IIn_ret(&sdate,6);IIn_ret(&stime,
 6);if(IIerrtest())continue;
-		printf("%s",date_char(sdate,"'Сегодня' DD МЕСЯЦА YYYY 'года', ДЕНЬНЕД"));
+		printf("%s",date_char(sdate,"'п║п╣пЁп╬п╢п╫я▐' DD п°п∙п║п╞п╕п░ YYYY 'пЁп╬п╢п╟', п■п∙п²п╛п²п∙п■"));
 		printf("%s\n",time_char(stime,NULL));
 }IIflushtup(0);IIsync(0);}
-            printf("Имя?................\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");
+            printf("п≤п╪я▐?................\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");
             gets(NAME);
             if (!NAME[0]) 
                 break;
 	    do {
-		    printf("Дата рождения: DD.MM.YYYY\b\b\b\b\b\b\b\b\b\b");
+		    printf("п■п╟я┌п╟ я─п╬п╤п╢п╣п╫п╦я▐: DD.MM.YYYY\b\b\b\b\b\b\b\b\b\b");
 		    gets(bday);
 		    sdate = char_date(bday,"DD.MM.YYYY");
 	   } while (sdate < 0);
-	    /* Попробуем спрогнозировать класс */
-	    /* 1. Получили 1 сентября года рождения */
+	    /* п÷п╬п©я─п╬п╠я┐п╣п╪ я│п©я─п╬пЁп╫п╬п╥п╦я─п╬п╡п╟я┌я▄ п╨п╩п╟я│я│ */
+	    /* 1. п÷п╬п╩я┐я┤п╦п╩п╦ 1 я│п╣п╫я┌я▐п╠я─я▐ пЁп╬п╢п╟ я─п╬п╤п╢п╣п╫п╦я▐ */
 	    date0 = char_date(date_char(sdate,"01.09.YYYY"),"DD.MM.YYYY");
-	    /* 2. Получили разность номера текущего года и года рождения */
+	    /* 2. п÷п╬п╩я┐я┤п╦п╩п╦ я─п╟п╥п╫п╬я│я┌я▄ п╫п╬п╪п╣я─п╟ я┌п╣п╨я┐я┴п╣пЁп╬ пЁп╬п╢п╟ п╦ пЁп╬п╢п╟ я─п╬п╤п╢п╣п╫п╦я▐ */
 	    years = atoi(date_char(get_date(),"YYYY"))
 		  - atoi(date_char(sdate,"YYYY"));
-	    /* 3. В школу идут в 7 лет, 1 сентября */
+	    /* 3. п▓ я┬п╨п╬п╩я┐ п╦п╢я┐я┌ п╡ 7 п╩п╣я┌, 1 я│п╣п╫я┌я▐п╠я─я▐ */
 	    klass = years - 7;
 	    if (date0 < sdate) klass++;
-	    /* Если сейчас начало года, то в новый класс он еще не перешел */
+	    /* п∙я│п╩п╦ я│п╣п╧я┤п╟я│ п╫п╟я┤п╟п╩п╬ пЁп╬п╢п╟, я┌п╬ п╡ п╫п╬п╡я▀п╧ п╨п╩п╟я│я│ п╬п╫ п╣я┴п╣ п╫п╣ п©п╣я─п╣я┬п╣п╩ */
 	    if (char_date(date_char(get_date(),"01.09.YYYY"),"DD.MM.YYYY")
 		> get_date()) klass--;
-	    printf("Вероятный класс = %d\n",klass);
-            printf("Класс?? ..\b\b");
+	    printf("п▓п╣я─п╬я▐я┌п╫я▀п╧ п╨п╩п╟я│я│ = %d\n",klass);
+            printf("п п╩п╟я│я│?? ..\b\b");
             gets(class);
-	    printf("Телефон? OOO-tt-ee\b\b\b\b\b\b\b\b\b");
+	    printf("п╒п╣п╩п╣я└п╬п╫? OOO-tt-ee\b\b\b\b\b\b\b\b\b");
             gets(tel);
 
-{IIwrite("append уч(ном=ser_next(\"ном_шк\"),фио=");IIcvar(NAME,3,0);IIwrite(",деньр=");IIcvar(&sdate,6,4);IIwrite("");
-IIwrite(",класс=");IIcvar(class,3,0);IIwrite(",тел=");IIcvar(tel,3,0);IIwrite(")");IIsync(0);}
+{IIwrite("append я┐я┤(п╫п╬п╪=ser_next(\"п╫п╬п╪_я┬п╨\"),я└п╦п╬=");IIcvar(NAME,3,0);IIwrite(",п╢п╣п╫я▄я─=");IIcvar(&sdate,6,4);IIwrite("");
+IIwrite(",п╨п╩п╟я│я│=");IIcvar(class,3,0);IIwrite(",я┌п╣п╩=");IIcvar(tel,3,0);IIwrite(")");IIsync(0);}
 
             if (IIerrflag) 
                 continue;
             i = 0;
-{IIwrite("retrieve(bday=from_date(уч.деньр,\"DD МЕСЯЦА YYYY 'года'\"),NAME=уч.фио,class=уч.класс,tel=уч.тел)where");
-IIwrite("(уч.ном=ser_last(\"ном_шк\"))");IIsetup();while(IIn_get(0)){IIn_ret(bday,3);IIn_ret(NAME,3);IIn_ret(class
+{IIwrite("retrieve(bday=from_date(я┐я┤.п╢п╣п╫я▄я─,\"DD п°п∙п║п╞п╕п░ YYYY 'пЁп╬п╢п╟'\"),NAME=я┐я┤.я└п╦п╬,class=я┐я┤.п╨п╩п╟я│я│,tel=я┐я┤.я┌п╣п╩)where");
+IIwrite("(я┐я┤.п╫п╬п╪=ser_last(\"п╫п╬п╪_я┬п╨\"))");IIsetup();while(IIn_get(0)){IIn_ret(bday,3);IIn_ret(NAME,3);IIn_ret(class
 ,3);IIn_ret(tel,3);if(IIerrtest())continue;
 
-	    printf(" `%s' родился `%s' класс %s телефон `%s'\n",NAME,bday,class,tel);
+	    printf(" `%s' я─п╬п╢п╦п╩я│я▐ `%s' п╨п╩п╟я│я│ %s я┌п╣п╩п╣я└п╬п╫ `%s'\n",NAME,bday,class,tel);
 }IIflushtup(0);IIsync(0);}
             if (IIerrflag) 
                 continue;
-            printf("Правильно (y/n д/н)? ");
+            printf("п÷я─п╟п╡п╦п╩я▄п╫п╬ (y/n п╢/п╫)? ");
             gets(NAME);
-            if (NAME[0] == 'n' || NAME[0] == 'н')
-{IIwrite("delete уч where уч.ном=ser_last(\"ном_шк\")");IIsync(0);}
+            if (NAME[0] == 'n' || NAME[0] == 'п╫')
+{IIwrite("delete я┐я┤ where я┐я┤.п╫п╬п╪=ser_last(\"п╫п╬п╪_я┬п╨\")");IIsync(0);}
         }
-{IIwrite("print уч");IIsync(0);}
+{IIwrite("print я┐я┤");IIsync(0);}
 {IIexit();}
 }
 

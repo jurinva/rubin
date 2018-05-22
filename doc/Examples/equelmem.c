@@ -19,14 +19,14 @@ setbuf(stdout,NULL);
 for(i=0;i<50;i++)
 {
 char buf[256];
-sprintf(buf,"éÍÑ%d",i+100);
+sprintf(buf,"Ð˜Ð¼Ñ%d",i+100);
 {IIwrite("append memtst(name=");IIcvar(buf,3,0);IIwrite(",okl=");IIcvar(&i,1,2);IIwrite(")");IIsync(0);}
 printf("\rAppend %.4d ",i);
 }
 puts("\n");
 for(i=0;i<1000;i++)
 {
-{IIwrite("replace memtst(okl=memtst.okl+");IIcvar(&i,1,2);IIwrite(")where memtst.name=\"éÍÑ10\"");IIsync(0);}
+{IIwrite("replace memtst(okl=memtst.okl+");IIcvar(&i,1,2);IIwrite(")where memtst.name=\"Ð˜Ð¼Ñ10\"");IIsync(0);}
 printf("\r Replace %.4d",i);
 }
 {IIwrite("print memtst");IIsync(0);}

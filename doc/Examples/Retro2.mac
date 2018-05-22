@@ -1,2 +1,2 @@
-range of r is работник
-retrieve (r.all) where (count(r.номер by r.имя)>1)
+range of r is я─п╟п╠п╬я┌п╫п╦п╨
+retrieve (r.all) where (count(r.п╫п╬п╪п╣я─ by r.п╦п╪я▐)>1)

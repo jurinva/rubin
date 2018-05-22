@@ -1,13 +1,13 @@
-.ds RU ςυβιξ
-.ds Ru ςΥΒΙΞ
-.ds rU ÒΥΒΙΞ
+.ds RU Π Π£Π‘ΠΠ
+.ds Ru Π ΡƒΠ±ΠΈΠ½
+.ds rU Ρ€ΡƒΠ±ΠΈΠ½
 .ds RN RUBIN
 .ds Rn Rubin
 .ds rN rubin
-.ds DE δενοσ
-.ds De δΕΝΟΣ
-.ds dE ΔΕΝΟΣ
-.ds SU "σ υ β δ   ς υ β ι ξ
+.ds DE Π”Π•ΠΠΠ΅
+.ds De Π”ΠµΠΌΠΎΡ
+.ds dE Π΄ΠµΠΌΠΎΡ
+.ds SU "Π΅ Π£ Π‘ Π”   Π  Π£ Π‘ Π Π
 .ll 79
 .lt 79
 .ns
@@ -81,8 +81,8 @@
 .de dt
 .ta 8 16 24 32 40 48 56 64
 ..
-.ds II \s-2ςυβιξ\s0
-.ds UU \s-2δενοσ\s0
+.ds II \s-2Π Π£Π‘ΠΠ\s0
+.ds UU \s-2Π”Π•ΠΠΠ΅\s0
 .ds GQ \s-2GEO-QUEL\s0
 .if !\n(.V .ds +- +-
 .if \n(.V .ds +- \(+-

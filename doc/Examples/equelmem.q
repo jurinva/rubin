@@ -19,14 +19,14 @@ setbuf(stdout,NULL);
 for(i=0;i<50;i++)
 {
 ## char buf[256];
-sprintf(buf,"éÍÑ%d",i+100);
+sprintf(buf,"Ð˜Ð¼Ñ%d",i+100);
 ## append to memtst (name=buf,okl=i)
 printf("\rAppend %.4d ",i);
 }
 puts("\n");
 for(i=0;i<1000;i++)
 {
-## replace memtst(okl=memtst.okl+i) where memtst.name="éÍÑ10"
+## replace memtst(okl=memtst.okl+i) where memtst.name="Ð˜Ð¼Ñ10"
 printf("\r Replace %.4d",i);
 }
 ## print memtst

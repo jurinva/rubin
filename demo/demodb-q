@@ -12,165 +12,165 @@ else
 Sflag="";
 fi
 rubin -s $Sflag $2 $1 <<\EOF
-create ÔÏ×ÁÒÙ (
-	ÎÏÍÅÒ is i2,
-	ÉÍÑ is c20,
-	ÏÔÄ is i2,
-	ÃÅÎÁ is i2,
-	ËÏÌ is i2,
-	ÐÏÓÔÁ×Ý is i2)
+create Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ (
+	Ð½Ð¾Ð¼ÐµÑ€ is i2,
+	Ð¸Ð¼Ñ is c20,
+	Ð¾Ñ‚Ð´ is i2,
+	Ñ†ÐµÐ½Ð° is i2,
+	ÐºÐ¾Ð» is i2,
+	Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰ is i2)
 
-create ÓÂÙÔ (
-	ÎÏÍÅÒ is c6,
-	ÄÁÔÁ is c8,
-	ÓÒÏË is i2,
-	ÏÔÄ is i2,
-	ÔÏ×ÁÒ is i2,
-	ËÏÌÉÞ is i2,
-	ÓÌÕÖÁÝ is i2,
-	ËÒÅÄÉÔ is c8)
+create ÑÐ±Ñ‹Ñ‚ (
+	Ð½Ð¾Ð¼ÐµÑ€ is c6,
+	Ð´Ð°Ñ‚Ð° is c8,
+	ÑÑ€Ð¾Ðº is i2,
+	Ð¾Ñ‚Ð´ is i2,
+	Ñ‚Ð¾Ð²Ð°Ñ€ is i2,
+	ÐºÐ¾Ð»Ð¸Ñ‡ is i2,
+	ÑÐ»ÑƒÐ¶Ð°Ñ‰ is i2,
+	ÐºÑ€ÐµÐ´Ð¸Ñ‚ is c8)
 
-create ÓÌÕÖÁÝÉÅ (
-	ÎÏÍÅÒ is i2,
-	ÉÍÑ is c20,
-	ÏËÌÁÄ is i2,
-	ÕÐÒÁ×Ì is i2,
-	ÄÁÔÁ_ÒÏÖÄ is i2,
-	ÎÁÞ_ÒÁÂ is i2)
+create ÑÐ»ÑƒÐ¶Ð°Ñ‰Ð¸Ðµ (
+	Ð½Ð¾Ð¼ÐµÑ€ is i2,
+	Ð¸Ð¼Ñ is c20,
+	Ð¾ÐºÐ»Ð°Ð´ is i2,
+	ÑƒÐ¿Ñ€Ð°Ð²Ð» is i2,
+	Ð´Ð°Ñ‚Ð°_Ñ€Ð¾Ð¶Ð´ is i2,
+	Ð½Ð°Ñ‡_Ñ€Ð°Ð± is i2)
 
-create ÏÔÄÅÌ (
-	ÎÏÍÅÒ is i2,
-	ÉÍÑ is c20,
-	ÚÁÐÁÓ is i2,
-	ÜÔÁÖ is i2,
-	ÕÐÒÁ×Ì is i2)
+create Ð¾Ñ‚Ð´ÐµÐ» (
+	Ð½Ð¾Ð¼ÐµÑ€ is i2,
+	Ð¸Ð¼Ñ is c20,
+	Ð·Ð°Ð¿Ð°Ñ is i2,
+	ÑÑ‚Ð°Ð¶ is i2,
+	ÑƒÐ¿Ñ€Ð°Ð²Ð» is i2)
 
-create ÐÏÓÔÁ×ÝÉËÉ (
-	ÎÏÍÅÒ is i2,
-	ÉÍÑ is c15,
-	ÇÏÒÏÄ is c15,
-	ÒÅÓÐÕÂ is c6)
+create Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ¸ (
+	Ð½Ð¾Ð¼ÐµÑ€ is i2,
+	Ð¸Ð¼Ñ is c15,
+	Ð³Ð¾Ñ€Ð¾Ð´ is c15,
+	Ñ€ÐµÑÐ¿ÑƒÐ± is c6)
 
-create ÓÎÁÂÖÅÎÉÅ (
-	ÎÏÍÅÒ is i2,
-	ÇÏÒÏÄ is c15,
-	ÒÅÓÐÕÂ is c6)
+create ÑÐ½Ð°Ð±Ð¶ÐµÐ½Ð¸Ðµ (
+	Ð½Ð¾Ð¼ÐµÑ€ is i2,
+	Ð³Ð¾Ñ€Ð¾Ð´ is c15,
+	Ñ€ÐµÑÐ¿ÑƒÐ± is c6)
 
-create ÞÁÓÔÉ (
-	ÎÏÍÅÒ is i2,
-	ÉÍÑ is c20,
-	Ã×ÅÔ is c8,
-	×ÅÓ is i2,
-	ËÏÌÉÞ is i2)
+create Ñ‡Ð°ÑÑ‚Ð¸ (
+	Ð½Ð¾Ð¼ÐµÑ€ is i2,
+	Ð¸Ð¼Ñ is c20,
+	Ñ†Ð²ÐµÑ‚ is c8,
+	Ð²ÐµÑ is i2,
+	ÐºÐ¾Ð»Ð¸Ñ‡ is i2)
 
-create ÐÏÓÔÁ×ËÉ (
-	NÐÏÓÔ is i2,
-	NÞÁÓÔÉ is i2,
-	NÁËÔÁ is i2,
-	ÄÁÔÁ_ÐÏÓÔ is c8,
-	ÒÁÚÍÅÒ is i2)
+create Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐ¸ (
+	NÐ¿Ð¾ÑÑ‚ is i2,
+	NÑ‡Ð°ÑÑ‚Ð¸ is i2,
+	NÐ°ÐºÑ‚Ð° is i2,
+	Ð´Ð°Ñ‚Ð°_Ð¿Ð¾ÑÑ‚ is c8,
+	Ñ€Ð°Ð·Ð¼ÐµÑ€ is i2)
 
-copy ÔÏ×ÁÒÙ (
-	ÎÏÍÅÒ is c0colon,
-	ÉÍÑ is c0colon,
-	ÏÔÄ is c0colon,
-	ÃÅÎÁ is c0colon,
-	ËÏÌ is c0colon,
-	ÐÏÓÔÁ×Ý is c0nl)
-from "{pathname}/demo/ÔÏ×ÁÒÙ"
+copy Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ (
+	Ð½Ð¾Ð¼ÐµÑ€ is c0colon,
+	Ð¸Ð¼Ñ is c0colon,
+	Ð¾Ñ‚Ð´ is c0colon,
+	Ñ†ÐµÐ½Ð° is c0colon,
+	ÐºÐ¾Ð» is c0colon,
+	Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰ is c0nl)
+from "{pathname}/demo/Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹"
 
-copy ÓÂÙÔ (
-	ÎÏÍÅÒ is c0colon,
-	ÄÁÔÁ is c0colon,
-	ÓÒÏË is c0colon,
-	ÏÔÄ is c0colon,
-	ÔÏ×ÁÒ is c0colon,
-	ËÏÌÉÞ is c0colon,
-	ÓÌÕÖÁÝ is c0colon,
-	ËÒÅÄÉÔ is c0nl)
-from "{pathname}/demo/ÓÂÙÔ"
+copy ÑÐ±Ñ‹Ñ‚ (
+	Ð½Ð¾Ð¼ÐµÑ€ is c0colon,
+	Ð´Ð°Ñ‚Ð° is c0colon,
+	ÑÑ€Ð¾Ðº is c0colon,
+	Ð¾Ñ‚Ð´ is c0colon,
+	Ñ‚Ð¾Ð²Ð°Ñ€ is c0colon,
+	ÐºÐ¾Ð»Ð¸Ñ‡ is c0colon,
+	ÑÐ»ÑƒÐ¶Ð°Ñ‰ is c0colon,
+	ÐºÑ€ÐµÐ´Ð¸Ñ‚ is c0nl)
+from "{pathname}/demo/ÑÐ±Ñ‹Ñ‚"
 
-copy ÓÌÕÖÁÝÉÅ (
-	ÎÏÍÅÒ is c0colon,
-	ÉÍÑ is c0colon,
-	ÏËÌÁÄ is c0colon,
-	ÕÐÒÁ×Ì is c0colon,
-	ÄÁÔÁ_ÒÏÖÄ is c0colon,
-	ÎÁÞ_ÒÁÂ is c0nl)
-from "{pathname}/demo/ÓÌÕÖÁÝÉÅ"
+copy ÑÐ»ÑƒÐ¶Ð°Ñ‰Ð¸Ðµ (
+	Ð½Ð¾Ð¼ÐµÑ€ is c0colon,
+	Ð¸Ð¼Ñ is c0colon,
+	Ð¾ÐºÐ»Ð°Ð´ is c0colon,
+	ÑƒÐ¿Ñ€Ð°Ð²Ð» is c0colon,
+	Ð´Ð°Ñ‚Ð°_Ñ€Ð¾Ð¶Ð´ is c0colon,
+	Ð½Ð°Ñ‡_Ñ€Ð°Ð± is c0nl)
+from "{pathname}/demo/ÑÐ»ÑƒÐ¶Ð°Ñ‰Ð¸Ðµ"
 
-copy ÏÔÄÅÌ (
-	ÎÏÍÅÒ is c0colon,
-	ÉÍÑ is c0colon,
-	ÚÁÐÁÓ is c0colon,
-	ÜÔÁÖ is c0colon,
-	ÕÐÒÁ×Ì is c0nl)
-from "{pathname}/demo/ÏÔÄÅÌ"
+copy Ð¾Ñ‚Ð´ÐµÐ» (
+	Ð½Ð¾Ð¼ÐµÑ€ is c0colon,
+	Ð¸Ð¼Ñ is c0colon,
+	Ð·Ð°Ð¿Ð°Ñ is c0colon,
+	ÑÑ‚Ð°Ð¶ is c0colon,
+	ÑƒÐ¿Ñ€Ð°Ð²Ð» is c0nl)
+from "{pathname}/demo/Ð¾Ñ‚Ð´ÐµÐ»"
 
-copy ÐÏÓÔÁ×ÝÉËÉ (
-	ÎÏÍÅÒ is c0colon,
-	ÉÍÑ is c0colon,
-	ÇÏÒÏÄ is c0colon,
-	ÒÅÓÐÕÂ is c0nl)
-from "{pathname}/demo/ÐÏÓÔÁ×ÝÉËÉ"
+copy Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ¸ (
+	Ð½Ð¾Ð¼ÐµÑ€ is c0colon,
+	Ð¸Ð¼Ñ is c0colon,
+	Ð³Ð¾Ñ€Ð¾Ð´ is c0colon,
+	Ñ€ÐµÑÐ¿ÑƒÐ± is c0nl)
+from "{pathname}/demo/Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ¸"
 
-copy ÓÎÁÂÖÅÎÉÅ (
-	ÎÏÍÅÒ is c0colon,
-	ÇÏÒÏÄ is c0colon,
-	ÒÅÓÐÕÂ is c0nl)
-from "{pathname}/demo/ÓÎÁÂÖÅÎÉÅ"
+copy ÑÐ½Ð°Ð±Ð¶ÐµÐ½Ð¸Ðµ (
+	Ð½Ð¾Ð¼ÐµÑ€ is c0colon,
+	Ð³Ð¾Ñ€Ð¾Ð´ is c0colon,
+	Ñ€ÐµÑÐ¿ÑƒÐ± is c0nl)
+from "{pathname}/demo/ÑÐ½Ð°Ð±Ð¶ÐµÐ½Ð¸Ðµ"
 
-copy ÞÁÓÔÉ (
-	ÎÏÍÅÒ is c0colon,
-	ÉÍÑ is c0colon,
-	Ã×ÅÔ is c0colon,
-	×ÅÓ is c0colon,
-	ËÏÌÉÞ is c0nl)
-from "{pathname}/demo/ÞÁÓÔÉ"
+copy Ñ‡Ð°ÑÑ‚Ð¸ (
+	Ð½Ð¾Ð¼ÐµÑ€ is c0colon,
+	Ð¸Ð¼Ñ is c0colon,
+	Ñ†Ð²ÐµÑ‚ is c0colon,
+	Ð²ÐµÑ is c0colon,
+	ÐºÐ¾Ð»Ð¸Ñ‡ is c0nl)
+from "{pathname}/demo/Ñ‡Ð°ÑÑ‚Ð¸"
 
-copy ÐÏÓÔÁ×ËÉ (
-	NÐÏÓÔ is c0colon,
-	NÞÁÓÔÉ is c0colon,
-	NÁËÔÁ is c0colon,
-	ÄÁÔÁ_ÐÏÓÔ is c0colon,
-	ÒÁÚÍÅÒ is c0nl)
-from "{pathname}/demo/ÐÏÓÔÁ×ËÉ"
+copy Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐ¸ (
+	NÐ¿Ð¾ÑÑ‚ is c0colon,
+	NÑ‡Ð°ÑÑ‚Ð¸ is c0colon,
+	NÐ°ÐºÑ‚Ð° is c0colon,
+	Ð´Ð°Ñ‚Ð°_Ð¿Ð¾ÑÑ‚ is c0colon,
+	Ñ€Ð°Ð·Ð¼ÐµÑ€ is c0nl)
+from "{pathname}/demo/Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐ¸"
 
-     create ÒÁÂÏÔÎÉË(
-		ÎÏÍÅÒ=i2,
-		ÉÍÑ=c20,
-		ÎÁÞÁÌØÎÉË=i2,
-		ÚÁÒÁÂÏÔÏË=i2,
-		ÒÏÄÉÌÓÑ=i2,
-		ÎÁÞÁÌ_ÒÁÂÏÔÕ=i2)
-     create ÍÁËÓ_ÎÏÍÅÒÁ(ÒÁÂÏÔÎÉË=i2)
-     append to ÍÁËÓ_ÎÏÍÅÒÁ(ÒÁÂÏÔÎÉË=1)
+     create Ñ€Ð°Ð±Ð¾Ñ‚Ð½Ð¸Ðº(
+		Ð½Ð¾Ð¼ÐµÑ€=i2,
+		Ð¸Ð¼Ñ=c20,
+		Ð½Ð°Ñ‡Ð°Ð»ÑŒÐ½Ð¸Ðº=i2,
+		Ð·Ð°Ñ€Ð°Ð±Ð¾Ñ‚Ð¾Ðº=i2,
+		Ñ€Ð¾Ð´Ð¸Ð»ÑÑ=i2,
+		Ð½Ð°Ñ‡Ð°Ð»_Ñ€Ð°Ð±Ð¾Ñ‚Ñƒ=i2)
+     create Ð¼Ð°ÐºÑ_Ð½Ð¾Ð¼ÐµÑ€Ð°(Ñ€Ð°Ð±Ð¾Ñ‚Ð½Ð¸Ðº=i2)
+     append to Ð¼Ð°ÐºÑ_Ð½Ð¾Ð¼ÐµÑ€Ð°(Ñ€Ð°Ð±Ð¾Ñ‚Ð½Ð¸Ðº=1)
 
 
-range of i is ÔÏ×ÁÒÙ
-save ÔÏ×ÁÒÙ until 12  31 1987
+range of i is Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹
+save Ñ‚Ð¾Ð²Ð°Ñ€Ñ‹ until 12  31 1987
 
-range of s is ÓÂÙÔ
-save ÓÂÙÔ until 12  31 1987
+range of s is ÑÐ±Ñ‹Ñ‚
+save ÑÐ±Ñ‹Ñ‚ until 12  31 1987
 
-range of e is ÓÌÕÖÁÝÉÅ
-save ÓÌÕÖÁÝÉÅ until 12  31 1987
+range of e is ÑÐ»ÑƒÐ¶Ð°Ñ‰Ð¸Ðµ
+save ÑÐ»ÑƒÐ¶Ð°Ñ‰Ð¸Ðµ until 12  31 1987
 
-range of d is ÏÔÄÅÌ
-save ÏÔÄÅÌ until 12  31 1987
+range of d is Ð¾Ñ‚Ð´ÐµÐ»
+save Ð¾Ñ‚Ð´ÐµÐ» until 12  31 1987
 
-range of s is ÐÏÓÔÁ×ÝÉËÉ
-save ÐÏÓÔÁ×ÝÉËÉ until 12  31 1987
+range of s is Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ¸
+save Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ¸ until 12  31 1987
 
-range of s is ÓÎÁÂÖÅÎÉÅ
-save ÓÎÁÂÖÅÎÉÅ until 12  31 1987
+range of s is ÑÐ½Ð°Ð±Ð¶ÐµÐ½Ð¸Ðµ
+save ÑÐ½Ð°Ð±Ð¶ÐµÐ½Ð¸Ðµ until 12  31 1987
 
-range of p is ÞÁÓÔÉ
-save ÞÁÓÔÉ until 12  31 1987
+range of p is Ñ‡Ð°ÑÑ‚Ð¸
+save Ñ‡Ð°ÑÑ‚Ð¸ until 12  31 1987
 
-range of s is ÐÏÓÔÁ×ËÉ
+range of s is Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐ¸
 define permit all on s to all
-save ÐÏÓÔÁ×ËÉ until 12  31 1987
+save Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐ¸ until 12  31 1987
 \g
 EOF
 echo database $1 created

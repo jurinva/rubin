@@ -9,7 +9,7 @@ DS:$P/source
 :
 *
 *  Process 0 -- terminal monitor
-*  Режим ставим 2, а не 3 - UID пользователя monitor поставит сам
+*  п═п╣п╤п╦п╪ я│я┌п╟п╡п╦п╪ 2, п╟ п╫п╣ 3 - UID п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩я▐ monitor п©п╬я│я┌п╟п╡п╦я┌ я│п╟п╪
 *
 P0:$B/sqlmon:MONITOR:h:0002:M
 
