@@ -22,7 +22,7 @@ pb_read.c:75:# ifdef xCM_DEBUG
 pb_write.c:53:# ifdef xCM_DEBUG
 readinput.c:104:# ifdef xCM_DEBUG
 readinput.c:171:# ifdef xCM_DEBUG
-resetp.c:53:# if 0 /* Не работает, предстоит разобраться def xCM_DEBUG      */
+resetp.c:53:# if 0 /* п²п╣ я─п╟п╠п╬я┌п╟п╣я┌, п©я─п╣п╢я│я┌п╬п╦я┌ я─п╟п╥п╬п╠я─п╟я┌я▄я│я▐ def xCM_DEBUG      */
 grammar.c:15:# define	YYDEBUG
 grammar.c:379:#ifdef YYDEBUGON
 grammar.c:381:#define YYDEBUG
