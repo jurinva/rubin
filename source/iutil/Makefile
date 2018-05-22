@@ -46,7 +46,7 @@ SRCS2=	replace.c del_tuple.c findbest.c add_ovflo.c cslocks.c \
 
 SRCS=	$(SRCS1) $(SRCS2)
 
-# UTEC определен в defines.h
+# UTEC п╬п©я─п╣п╢п╣п╩п╣п╫ п╡ defines.h
 CFLAGS= -I$H -O
 AR=	-ar
 ARFLAGS=urv
@@ -60,7 +60,7 @@ CP=     cp
 CHMOD=	chmod
 LIBMODE=664
 
-# Из-за отсутствия RANLIB сунули здесь accbuf явно
+# п≤п╥-п╥п╟ п╬я┌я│я┐я┌я│я┌п╡п╦я▐ RANLIB я│я┐п╫я┐п╩п╦ п╥п╢п╣я│я▄ accbuf я▐п╡п╫п╬
 #iutil: $(OBJS)
 #        $(AR) $(ARFLAGS) iutil accbuf.o `lorder $?|tsort`
 #        $(CHMOD) $(LIBMODE) iutil
